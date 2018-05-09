@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
+
+$nunito: 'Nunito', sans-serif;
+$poppins: 'Poppins', sans-serif;
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+*:focus {
+	box-shadow: none !important;
+	outline: none !important;
+}
+
+body {
+    font-family: $nunito;
+    font-weight: 400;
+	color: #1a1a1d;
+	position: relative;
+
+	&:before {
+		content: "";
+		position: absolute;
+		display: block;
+		height: 720px;
+		width: 33%;
+		background-color: #c1dada;
+		top: 0;
+		right: 0;
+    }
+}

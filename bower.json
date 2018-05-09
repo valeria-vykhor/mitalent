@@ -1,0 +1,22 @@
+{
+  "name": "mitalent",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "valeria-vykhor <valeria.vykhor@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "*",
+    "jquery": "*",
+    "bootstrap": "4.1.0"
+  }
+}
