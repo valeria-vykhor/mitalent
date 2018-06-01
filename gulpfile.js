@@ -45,7 +45,7 @@ var config = {
     },
     tunnel: false,
     host: 'localhost',
-    port: 8000,
+    port: 9000,
     logPrefix: "Frontend_Devil"
 };
 
@@ -131,6 +131,5 @@ gulp.task('watch', function(){
         gulp.start('fonts:build');
     });
 });
-
 
 gulp.task('default', ['build', 'webserver', 'watch']);

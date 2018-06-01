@@ -1,9 +1,13 @@
 header {
-    padding: 40px 0 120px;
+    padding: 20px 0 0;
+    @media screen and (min-width: 768px) {
+        padding: 40px 0 120px; 
+    }
 
     input {
         border: none;
         background-color: transparent;
+        width: 150px;
         @media screen and (max-width: 767px) {
             width: 90%;
 
@@ -23,6 +27,10 @@ header {
             justify-content: space-between;
             align-items: center;
             padding-top: 20px;
+        }
+
+        img {
+            width: 20px;
         }
     }
 
@@ -44,7 +52,7 @@ header {
         }
     }
 
-    .dropdown-toggle::after, .dropup .dropdown-toggle::after {
+    .dropdown-toggle:after {
         content: none;
     }
 
@@ -89,5 +97,9 @@ header {
             margin: 0;
             padding: 0;
         }
+    }
+
+    .navbar {
+        padding: 0;
     }
 }

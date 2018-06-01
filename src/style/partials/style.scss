@@ -21,17 +21,26 @@ $poppins: 'Poppins', sans-serif;
 body {
     font-family: $nunito;
     font-weight: 400;
-	color: #1a1a1d;
-	position: relative;
+		color: #1a1a1d;
+		position: relative;
 
 	&:before {
-		content: "";
-		position: absolute;
-		display: block;
-		height: 720px;
-		width: 33%;
-		background-color: #c1dada;
-		top: 0;
-		right: 0;
-    }
+		@media screen and (min-width: 768px) {
+			content: "";
+			position: absolute;
+			display: block;
+			height: 500px;
+			width: 33%;
+			background-color: #c1dada;
+			top: 0;
+			right: 0;
+		}
+   }
+}
+
+.container-fluid {
+	@media screen and (min-width: 768px) {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
 }
